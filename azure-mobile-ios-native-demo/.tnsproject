@@ -1,0 +1,6 @@
+{
+	"id": "org.nativescript.azuremobileiosnativedemo",
+	"tns-ios": {
+		"version": "0.9.1"
+	}
+}

@@ -1,0 +1,6 @@
+framework module AzureMobileServices {
+  umbrella header "AzureMobileServices.h"
+
+  export *
+  module * { export * }
+}

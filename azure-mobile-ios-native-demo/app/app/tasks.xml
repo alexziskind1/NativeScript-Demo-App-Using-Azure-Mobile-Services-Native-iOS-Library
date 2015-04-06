@@ -1,0 +1,15 @@
+<Page loaded="onPageLoaded">
+	<StackLayout>
+
+		<Label text="Tap button to load tasks" cssClass="title"/>
+		<Button text="LOAD TASKS" tap="{{ tapAction }}" />
+	
+		<GridLayout rows="auto, *">
+			<ListView items="{{ tasks }}" row="1">
+				<ListView.itemTemplate>
+					<Label text="{{ name }}" cssClass="rowClass" />
+				</ListView.itemTemplate>
+			</ListView>
+		</GridLayout>
+	</StackLayout>
+</Page>
